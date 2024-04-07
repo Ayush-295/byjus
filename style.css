@@ -1,0 +1,685 @@
+*{
+    margin : 0; 
+
+    font-family : arial ; 
+    border: border-box ; 
+   
+
+
+}
+
+#background{
+
+    background-color: #813588;
+}
+
+
+.nav-bar {
+
+    height : 50px ; 
+
+    background-color: #008000;
+    color : #ffffff;
+    display : flex;
+    justify-content: center ;
+    align-items : center ;
+
+    justify-content: space-evenly;
+}
+
+.course {
+
+    display : flex;
+    justify-content: center ;
+    align-items : center ;
+
+}
+
+
+
+
+.course{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ 
+.but a {
+    width : 100%;
+    height : 100%;
+    
+}
+
+.buta{
+    display : flex ; 
+    justify-content: center ;
+    align-items: center;
+
+}
+.but{
+
+    background-color:white;
+    height : 27px;
+    width : 150px;
+    border-radius: 20px;
+
+    display : flex ; 
+    justify-content: center ;
+    align-items: center;
+    color : #2b2b2b;
+    font-size : 13px;
+}
+
+
+.skip{
+
+ background-color: #2b2b2b;
+ 
+ border-radius: 50%;
+ 
+ 
+}
+
+.skipa{
+    color : white;
+}
+
+
+#secnav-bar{
+display : flex;
+justify-content: center ;
+align-items : center;
+justify-content: space-evenly;
+
+    height : 90px;
+    background-color:#813588 ;
+    
+}
+
+.logo {
+height : 65px;
+width: 80px;
+background-image: url("Byus-logo.png");
+background-size: cover;
+
+
+}
+
+.options {
+    width: 800px;
+    display : flex ; 
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.options  a {
+    
+    
+color : #ffc846;
+  font-size : 16px ; 
+}
+
+
+
+
+
+
+
+.login{
+    display : flex; 
+    justify-content: center ;
+    align-items : center ;
+    height : 35px;
+    width : 50px ; 
+   
+    border: 1px solid  #ffc846;
+    border-radius : 6px;
+
+    color : #ffc846;
+}
+.login a {
+
+    color :  #ffc846;
+}
+
+.call{
+    
+    font-size : 20px;
+    color : #ffc846;
+
+}
+
+.call a {
+
+    color : #ffc846;
+}
+
+.search{
+    font-size : 20px;
+    color :  #ffc846;
+}
+
+
+.content{
+
+    background-color: #813588;
+}
+
+
+
+.headingAdd{
+
+    display : flex ; 
+    justify-content: center ;
+    align-items : center ;
+    height : 150px;
+    background-color: #813588;
+    
+}
+
+.Adimage {
+    
+    
+    border-radius: 10px;
+     height :80%;
+     width : 1100px;
+    background-image: url("byjus-classes-home-page-top-desktop-jan17.webp") ;
+    background-size: cover ;
+}
+
+.skipDIV2 {
+
+    color : #cccccc;
+    background-color:black;
+    width : 1vw;
+    border : solid 1px black;
+    border : none;
+    border-radius: 50%;
+}
+
+
+.content2{
+    background-color:   #813588;
+    height : 800px ;
+    display : flex ; 
+    justify-content: center ;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.imgSrk{
+    
+    border-radius: 20px;
+    height : 400px;
+    border: 1px solid white  ; 
+    border : none ; 
+    background-image: url("How-Much-Does-It-Cost-to-Develop-an-App-like-Byjus.webp");
+    background-size: cover ;
+    
+    width : 500px;
+
+    
+
+}
+
+.form {
+    display: flex;
+
+      justify-content: baseline; 
+    align-items: center; 
+
+    flex-direction: column;
+    background-color: white ;
+    border-radius : 20px ;
+    border : 1px solid white ; 
+    border : none ; 
+    height : 550px;
+    width : 500px;
+
+    padding-top : 40px;
+    margin-top : 20px;
+    
+
+}
+
+.form p{
+ margin-top : 10px;
+    
+}
+
+.mode {
+    display : flex ;
+    justify-content: center;
+    align-items : center ;
+    justify-content: space-evenly;
+    margin-top : 10px;
+    height : 40px;
+    width : 500px;
+}
+
+.online {
+
+    border : 0.5px solid black ;
+    border : none ;
+}
+.b{
+    display : flex ; 
+    justify-content: center;
+    align-items : center ;
+    justify-content: space-evenly;
+    height : 30px;
+      border : 0.5px solid rgb(239, 234, 234) ;
+      width : 215px;
+      border-radius: 5px;
+      font-size : 14px;
+}
+
+
+
+.top{
+    color : #2b2b2b;
+    font-size : 25px;
+    font-weight: 550;
+}
+.mid {
+    color :#666666;
+   font-size : 13px;
+}
+.bottom{
+    font-weight: 550;
+}
+
+.details {
+    font-weight: 600;
+}
+
+
+
+.fc{
+
+    margin-top : 10px;
+    margin-bottom: 15px;
+
+    height : 38.4px;
+    border: 0.5px solid rgb(195, 191, 191) ;
+    width : 90%;
+    border-radius: 8px;
+
+    color : rgb(131, 130, 132)
+    
+   
+}
+
+.secdet{
+
+    display : flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile{
+    width : 385px;
+}
+
+
+.sendOTP{
+display : flex ; 
+justify-content: center;
+align-items : center ; 
+    height : 40px;
+
+    border-radius  : 5px;
+    background-color: #5c72ff;
+    color : white;
+    transform: translateY(-3px);
+    font-size : 14px;
+}
+
+
+.continue{
+display : flex ; 
+justify-content: center ;
+align-items: center;
+
+    font-size : 30px;
+    background-color: #ff8e32;
+    width : 90%;
+    height : 50px;
+    border-radius : 5px;
+    color : white ; 
+}
+
+
+
+.belowContent{
+    display : flex ;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    margin-top : 40px;
+}
+.belowContentChild1{
+     display : flex ; 
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ height : 100px ; 
+ width : 720px ; 
+ background-color: white ; 
+ margin-top: 100px;
+}
+
+.prefirst{
+
+    font-size : 25px;
+    font-weight:600 ;
+}
+
+.pre {
+
+    margin-top : 15px;
+}
+
+.presec{
+
+    font-size : 9px;
+}
+
+.belowContentChild2{
+    display : flex;
+    flex-direction: column;
+    height : 300px;
+    align-items: center;
+    width : 1100px ; 
+    background-color: #f2f2f2;
+   margin-top : 45px;
+   margin-bottom: 75px;
+
+   border-radius: 15px;
+
+
+}
+
+.fourToTenth {
+
+    height : 35px; 
+    width : 100px ; 
+    background-color:  #5c72ff;
+    color : white; 
+    border-bottom-left-radius : 10px ;
+    border-bottom-right-radius : 10px ;
+    font-size : 16px ; 
+    display : flex ; 
+    justify-content: center ;
+    align-items: center;
+    
+}
+
+
+.images{
+
+    display : flex; 
+    height : 200px;
+    width : 100%;
+    justify-content: center;
+    justify-content: space-evenly;
+    
+}
+
+.image1{
+
+    background-image: url("img1.png");
+    background-size: cover;
+    height : 100%px;
+    width : 200px;
+    
+}
+
+.contentOfImg1{
+    
+    width : 220px;
+
+    height : 100%;
+
+ 
+
+
+}
+
+.para{
+    display : flex ; 
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.Byjuslogo{
+    background-image: url("personalizedLea.svg");
+    background-image: cover;
+    height : 50%;
+}
+
+
+
+.image2{
+
+    background-image: url("img2.png");
+    background-size: cover;
+    height : 100%; 
+    width : 200px ; 
+}
+
+a{
+
+    text-decoration: none ;
+ color : #464749;
+ 
+
+}
+
+.contentOfImg2{
+    width : 220px;
+
+    height : 100%;
+
+
+}
+
+
+.bookAfreeclass {
+
+    width : 190px;
+    height : 52px ; 
+    background-color: rgb(220, 115, 34);
+    color : white ; 
+    border-radius: 10px ;
+    font-size: 20px ;
+
+    display : flex ; 
+    justify-content: center;
+
+    align-items: center;
+}
+
+.child3 {
+    display : flex ;
+    flex-direction: column ; 
+
+    justify-content: center ;
+    margin: 100px;
+    
+
+}
+.adv{
+     color: #333333;
+    font-size : 30px;
+    font-weight: 600;
+}
+
+
+.conceptclarity {
+
+    background-image:url("concept-clarity.png");
+    height :300px ;
+    background-size: cover;
+    margin-bottom: 20px ;
+}
+
+.p{
+    color: #333333;
+    font-size : 30px;
+}
+
+
+
+.sec  {
+    padding-bottom : 20px ;
+}
+
+.perlearning {
+
+    background-image:url("personalised-learning.png");
+    height :300px ;
+    background-size: cover;
+    margin-bottom: 20px ;
+}
+.fourth  {
+    padding-bottom : 20px ;
+}
+
+.attention{
+    background-image:url("unmatched-attention.png");
+    height :300px ;
+    background-size: cover;
+    margin-bottom: 20px ;
+}
+
+.child4{
+
+    display : flex ; 
+flex-direction: column;
+width : 1100px ; 
+height : 500px ;
+
+justify-content: space-evenly;
+
+
+
+
+  
+}
+
+.explore{
+
+    display : flex ; 
+    justify-content: center ;
+    align-items: center;
+
+    font-size: 30px;
+    font-weight: 600;
+    color : #333333;
+}
+
+.otherexploringoptions{
+
+    display : flex;
+justify-content: center;
+justify-content: space-evenly;
+ align-items: center; 
+ 
+
+
+
+}
+
+.img1{
+
+    background-image: url("lkg.webp");
+    background-size: cover;
+    height : 300px;
+    width : 300px;
+
+
+}
+
+.img2{
+
+    background-image: url("4-10.webp");
+    background-size: cover;
+    height : 300px;
+    width : 300px;
+}
+
+.img3{
+
+    
+    background-image: url("4-10live.webp");
+    background-size: cover;
+    height : 300px;
+    width : 300px;
+}
+
+
+.logo2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.logo2IMG {
+    height: 5vh;
+    width: 20vw;
+
+}
+
+.panel1{
+
+    height : 700px; 
+    background-color: #813588;
+
+}
+
+
+.panel1 {
+    display : flex ; 
+    justify-content: center;
+    justify-content: space-evenly;
+    padding-top : 40px ;
+
+
+    
+}
+
+.panel1 a {
+
+    color : #cccccc;
+    margin-top : 10px ; 
+    font-size : 13px;
+    
+}
+
+.pnl {
+
+
+    display : flex ; 
+    flex-direction: column;
+    
+    align-items: center;
+    
+}
+
+.panel1 p {
+
+    color : rgb(225, 187, 62) ; 
+}
+
+.list{
+
+    display : flex ;
+    flex-direction: column;
+
+}
+
+
+
+
