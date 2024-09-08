@@ -9,6 +9,8 @@ skipa.addEventListener("click" , () => {
    
 
 });
+console.log("hello");
+console.log("bhai mai bhi aagya tere code ke andar");
 let skipDIV2 = document.querySelector(".skipDIV2");
 
 let headingAdd = document.querySelector(".headingAdd");
